@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmpresaTech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="box">
+        <img src="img/empresa.png" alt="">
+        <div class="text"><h1>Conectando Talentos as Oportunidades</h1></div>
+        <div class="button"><button>Encontre Seu Emprego</button></div>
+    </div>
+    
+    <div class="pesquisa">
+        <h2>Vagas</h2>
+        <input type="text" placeholder="Área, localização ou tipo de contrato">
+        <button></button>
+    </div>
+
+    <div class="conteiners">
+        <div class="cont"> 
+            <h3>Desenvolvedor Web</h3>
+            <p>ABC Tecnologia</p>
+            <p>São Paulo</p>
+            <button>Ver Detalhes</button>
+        </div>
+        <div class="cont"> 
+            <h3>Gerente de Projetos</h3>
+            <p>Inova Solução</p>
+            <p>Rio de Janeiro</p>
+            <button>Ver Detalhes</button>
+        </div>
+        <div class="cont"> 
+            <h3>Analista de Dados</h3>
+            <p>Empresa XY2</p>
+            <p>Belo Horizonte</p>
+            <button>Ver Detalhes</button>
+        </div>
+    </div>
+
+    <div class="cadastros">
+        <form action="php/cadastrar.php" method="POST">
+            <h3>Cadastro de Candidato</h3>
+            <input type="text" name="nome" placeholder="Inserir Nome">
+            <input type="email" name="email" placeholder="Inserir Email">
+            <button onclick="usuario()">Cadastrar</button>
+        </form>
+        
+            <h3>Cadastro de Empresa</h3>
+            <input type="text" name="nome" placeholder="Inserir Nome">
+            <input type="password" name="senha" placeholder="Inserir Senha">
+            <button onclick="empresa()">Cadastrar</button>
+        </form>
+        
+        <form action="php/dashboard.php" method="POST"></form>
+        <button onclick="dash()">Visualizar Cadastros</button>
+        </form>
+
+        <form action="php/dashboard2.php" method="POST"></form>
+        <button onclick="dash2()">Visualizar Empresas</button>
+    </form>
+
+
+    </div>
+
+    <div class="user">
+        <h2>Área do Usuário</h2>
+        <div class="User">
+            <h3>Candidato</h3>
+            <p>Curriculo</p>
+            <p>Vagas</p>
+            <p>Recomendações</p>
+        </div>
+        <div class="Publi">
+            <h3>Vagas</h3>
+            <p>Publicadas</p>
+            <p>Candidaturas</p>
+            <p>Estatisticas</p>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>Contato</p>
+        <p>Politica de Privacidade</p>
+    </div>
+</body>
+</html>
