@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #dfdfdf;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+  
+  <script src="script.js">
+  </script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Procuraê</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="" href="criar.html">Criar Evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="index.html" tabindex="-1" aria-disabled="true">Procure seu evento</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Escreva aqui" aria-label="Escreva aqui">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <br><br><br>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="valor.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Caçada Pokémon em Conjunto</h5>
+            <p class="card-text">Vamos sair caçando e derrotando ginásios juntos! (apenas team valor)</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="brawl.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apenas subir troféus</h5>
+            <p class="card-text">Pegar 1000 troféus com qualquer brawler no Brawl Stars</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Mundo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Evento RPG</h5>
+            <p class="card-text">Aventura em um mundo de RPG venha</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Portugal.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Viagem em conjunto para Portugal</h5>
+            <p class="card-text">Venha com vários brasileiros viajar para Portugal para fazer amigos se você não tiver com quem ir</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Fut.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pelada Sexta-feira</h5>
+            <p class="card-text">Traga sua comida e bebida para depois dos jogos kk</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Roblox.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Juntar um grupo pra jogar Roblox</h5>
+            <p class="card-text">Vamos se juntar para jogar vários jogos como por exemplo: a dusty trip, dead rails e arsenal</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Chari.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Troca de cartas Pokémon</h5>
+            <p class="card-text">Vamos fazer uma convenção de trocas de cartas Pokémon</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="card h-100">
+          <img src="Olinda.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Andar de bicicleta até Olinda</h5>
+            <p class="card-text">Se junte conosco para ir até Olinda de bicicleta (se inscreva para mais informações sobre onde será o inicio)</p>
+            <button class="btn btn-primary btn-inscrever" onclick="inscrever()">Se inscrever</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
