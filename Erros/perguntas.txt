@@ -1,0 +1,82 @@
+1 - JavaScript
+
+1. O código atende aos princípios de consistência e manutenibilidade?
+Sim
+2. Há controle adequado de entrada e saída de dados em todas as funções?
+Não, é tudo automático
+3. As variáveis e funções possuem nomes que refletem claramente sua responsabilidade?
+Sim
+4. Existe independência entre os módulos ou há alto acoplamento entre funções?
+Não
+5. O tratamento de exceções está previsto em todos os fluxos críticos?
+Não
+6. O código segue uma estrutura lógica clara e previsível?
+Sim
+7. Há algum ponto onde o comportamento do sistema pode se tornar imprevisível?
+Não
+8. O fluxo principal depende de dados não validados?
+Sim
+9. O projeto respeita boas práticas de modularidade e escopo?
+Não
+10. Existem indicadores de duplicação de lógica ou código redundante?
+Sim
+11. O código foi escrito considerando legibilidade para manutenção futura?
+Sim
+12. Os cálculos e laços estão estruturados de forma a evitar resultados inconsistentes?
+Não
+13. Há comentários suficientes e úteis para auditoria técnica?
+Não
+14. Os valores manipulados em cada função são validados antes do processamento?
+Sim
+15. Há algum ponto em que o sistema possa se comportar de maneira diferente em execuções sucessivas?
+Sim
+2 - Java
+
+1. A estrutura de classes reflete os princípios de encapsulamento e responsabilidade única?
+Sim 
+2. Os métodos possuem escopo e propósito bem definidos?
+Não, é tudo público
+3. O código lida adequadamente com condições excepcionais e entradas inválidas?
+Não, da pra sacar quando não tem nada na conta
+4. As dependências entre classes e objetos estão documentadas e justificadas?
+Não estão documentadas 
+5. Existem possíveis violações de regras de negócio implícitas no código?
+Sim, o juros infinito quando a pessoa vai verificar 
+6. O gerenciamento de recursos (memória, scanner, conexões) é realizado de forma segura?
+Não, é tudo público 
+7. Há práticas de logging ou auditoria implementadas para rastrear ações críticas?
+Sim
+8. As operações financeiras seguem critérios claros de consistência?
+Não
+9. O sistema é resiliente a entradas nulas ou inesperadas?
+Não, o meu deu erro quando coloquei um id que não existia
+10. Há controle de fluxo adequado entre as operações de menu e as chamadas de método?
+Sim
+11. As exceções são tratadas de forma específica ou genérica?
+genérica mas dependendo só vai dar um erro
+12. O design orientado a objetos favorece reutilização e testes?
+Sim
+13. Há algum ponto em que a ausência de validação possa comprometer integridade de dados?
+Sim
+14. O código segue convenções de estilo e padronização da linguagem?
+Sim
+15. As decisões de implementação estão alinhadas com princípios de engenharia de software segura?
+Não por causa das informações dos usuários serem públicsa
+
+3 - PHP
+
+1. O sistema implementa mecanismos de segurança contra injeções ou manipulação externa?
+2. O tratamento de dados enviados pelo usuário é validado e sanitizado?
+3. A estrutura do código evita dependência excessiva de variáveis globais?
+4. Há separação clara entre lógica de negócio e apresentação?
+5. O controle de erros e mensagens é adequado ao ambiente de produção?
+6. O código lida de maneira previsível com dados incompletos ou corrompidos?
+7. Há documentação de parâmetros, retornos e efeitos colaterais das funções?
+8. O armazenamento e a persistência de dados são tratados com segurança?
+9. Existe preocupação com desempenho e escalabilidade no fluxo geral?
+10. Há redundância de código em funções que poderiam ser generalizadas?
+11. O código mantém coerência de tipos em todas as operações?
+12. A manipulação de arquivos e diretórios segue boas práticas de segurança?
+13. O tratamento de erros evita exposição de informações sensíveis?
+14. O sistema oferece rastreabilidade suficiente para auditoria posterior?
+15. As funções seguem uma hierarquia lógica e previsível dentro do contexto da aplicação?
