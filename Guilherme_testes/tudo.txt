@@ -1,0 +1,10 @@
+Guilherme José / 98499-1361	
+Mariana Lopes / 98742-5098	
+João Pedro / 98112-7745
+
+
+Segunda questão
+
+Salario:937.5
+soma do desconto:103.125
+valor total com desconto:834.375
